@@ -1,0 +1,2 @@
+#/etc/udev/rules.d/trackpoint.rules
+ACTION=="add",SUBSYSTEM=="input",ATTR{name}=="TPPS/2 IBM TrackPoint",ATTR{device/sensitivity}="290",ATTR{device/speed}="130"
