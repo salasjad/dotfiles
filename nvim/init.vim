@@ -1,5 +1,6 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+set nocompatible
+filetype plugin on
+syntax on
 
 set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
@@ -8,6 +9,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'christoomey/vim-system-copy'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
+Plugin 'rdnetto/YCM-Generator'
+Plugin 'vimwiki/vimwiki'
 "Plugin 'wincent/command-t' "code navigatig
 "Plugin 'mileszs/ack.vim' "new tab search
 
@@ -20,10 +23,6 @@ filetype plugin indent on    " required
 
 runtime! debian.vim
 "standard vim-->
-
-if has("syntax")
-  syntax on
-endif
 
 colorscheme ego
 set background=dark
@@ -45,7 +44,7 @@ set shiftwidth=3
 set softtabstop=3
 set number
 
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -55,8 +54,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-let g:ycm_global_ycm_extra_conf = 'path to .ycm_extra_conf.py'
 
 let g:system_copy#copy_command='xclip -sel clipboard'
 let g:system_copy#paste_command='xclip -sel clipboard -o'
@@ -86,9 +83,4 @@ noremap <Right> <NOP>
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc>
 map <Esc> :w<CR>
-
-if &compatible
-   set nocompatible
- endif
-
 
