@@ -1,7 +1,3 @@
-set nocompatible
-filetype plugin on
-syntax on
-
 set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -11,6 +7,9 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'rdnetto/YCM-Generator'
 Plugin 'vimwiki/vimwiki'
+Plugin 'scrooloose/nerdtree'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'kien/ctrlp.vim'
 "Plugin 'wincent/command-t' "code navigatig
 "Plugin 'mileszs/ack.vim' "new tab search
 
@@ -23,6 +22,10 @@ filetype plugin indent on    " required
 
 runtime! debian.vim
 "standard vim-->
+
+set nocompatible
+filetype plugin on
+syntax on
 
 colorscheme ego
 set background=dark
@@ -54,6 +57,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+hi SpellBad ctermfg=019 ctermbg=242 guifg=#585858 guibg=#585858
+hi SpellCap ctermfg=017 ctermbg=019 guifg=#005f87 guibg=#005fd7
 
 let g:system_copy#copy_command='xclip -sel clipboard'
 let g:system_copy#paste_command='xclip -sel clipboard -o'
@@ -61,6 +66,11 @@ let g:system_copy#paste_command='xclip -sel clipboard -o'
 set autowrite		" Automatically save before commands like :next and :make
 "set hidden		" Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
+
+"NERDtree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+map <C-n> :NERDTreeToggle<CR>
 
 "Disable arrow keys
 noremap <Up> <NOP>
@@ -78,9 +88,9 @@ noremap <Right> <NOP>
 :nnoremap <A-k> <C-w>k
 :nnoremap <A-l> <C-w>l
 
-
 "insert a new-line after the current line by pressing Enter (Shift-Enter for inserting a line before the "current line):
 nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
-map <Esc> :w<CR>
+nmap <CR> o<Esc> 
+map <F7> mzgg=G`z
+"map <Esc> :w<CR>
 
