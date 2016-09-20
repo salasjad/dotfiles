@@ -1,0 +1,757 @@
+[
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/date_time/src/gregorian/gregorian_types.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/gregorian_types.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/gregorian_types.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/date_time/src/gregorian/greg_weekday.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/greg_weekday.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/greg_weekday.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/date_time/src/gregorian/date_generators.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/date_generators.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/date_generators.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/date_time/src/gregorian/greg_month.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/greg_month.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/gregorian/greg_month.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/date_time/src/posix_time/posix_time_types.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/posix_time/posix_time_types.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/date_time/src/posix_time/posix_time_types.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/codecvt_error_category.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/codecvt_error_category.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/codecvt_error_category.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/windows_file_codecvt.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/windows_file_codecvt.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/windows_file_codecvt.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/path_traits.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/path_traits.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/path_traits.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/unique_path.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/unique_path.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/unique_path.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/utf8_codecvt_facet.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/utf8_codecvt_facet.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/utf8_codecvt_facet.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/operations.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/operations.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/operations.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/portability.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/portability.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/portability.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/filesystem/src/path.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/path.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/filesystem/src/path.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/atomic/src/lockpool.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/atomic/src/lockpool.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/atomic/src/lockpool.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/w32_regex_traits.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/w32_regex_traits.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/w32_regex_traits.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/c_regex_traits.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/c_regex_traits.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/c_regex_traits.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/instances.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/instances.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/instances.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/cpp_regex_traits.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/cpp_regex_traits.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/cpp_regex_traits.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/cregex.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/cregex.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/cregex.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/fileiter.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/fileiter.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/fileiter.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/winstances.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/winstances.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/winstances.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/usinstances.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/usinstances.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/usinstances.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/static_mutex.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/static_mutex.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/static_mutex.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/wc_regex_traits.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/wc_regex_traits.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/wc_regex_traits.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/regex_traits_defaults.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex_traits_defaults.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex_traits_defaults.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/regex_raw_buffer.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex_raw_buffer.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex_raw_buffer.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/posix_api.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/posix_api.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/posix_api.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/regex_debug.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex_debug.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex_debug.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/icu.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/icu.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/icu.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/wide_posix_api.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/wide_posix_api.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/wide_posix_api.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/regex/src/regex.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/regex/src/regex.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/chrono/src/thread_clock.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/chrono/src/thread_clock.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/chrono/src/thread_clock.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/chrono/src/process_cpu_clocks.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/chrono/src/process_cpu_clocks.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/chrono/src/process_cpu_clocks.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/chrono/src/chrono.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/chrono/src/chrono.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/chrono/src/chrono.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_pointer_oserializer.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_pointer_oserializer.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_pointer_oserializer.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_text_wiprimitive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_wiprimitive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_wiprimitive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/xml_wgrammar.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_wgrammar.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_wgrammar.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_text_oprimitive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_oprimitive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_oprimitive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_oserializer.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_oserializer.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_oserializer.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_iarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_iarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_iarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/binary_iarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_iarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_iarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/binary_oarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_oarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_oarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/xml_oarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_oarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_oarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_text_iprimitive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_iprimitive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_iprimitive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/extended_type_info_no_rtti.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/extended_type_info_no_rtti.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/extended_type_info_no_rtti.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/text_wiarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_wiarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_wiarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/binary_wiarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_wiarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_wiarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/stl_port.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/stl_port.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/stl_port.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/codecvt_null.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/codecvt_null.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/codecvt_null.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_oarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_oarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_oarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/void_cast.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/void_cast.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/void_cast.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_xml_archive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_xml_archive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_xml_archive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_text_woprimitive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_woprimitive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_text_woprimitive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/text_woarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_woarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_woarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_iserializer.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_iserializer.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_iserializer.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/xml_wiarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_wiarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_wiarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/utf8_codecvt_facet.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/utf8_codecvt_facet.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/utf8_codecvt_facet.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/polymorphic_oarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/polymorphic_oarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/polymorphic_oarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/xml_iarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_iarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_iarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/xml_archive_exception.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_archive_exception.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_archive_exception.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/binary_woarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_woarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/binary_woarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/archive_exception.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/archive_exception.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/archive_exception.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_serializer_map.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_serializer_map.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_serializer_map.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/text_oarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_oarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_oarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/polymorphic_iarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/polymorphic_iarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/polymorphic_iarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/extended_type_info.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/extended_type_info.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/extended_type_info.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_archive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_archive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_archive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/singleton.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/singleton.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/singleton.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/extended_type_info_typeid.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/extended_type_info_typeid.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/extended_type_info_typeid.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/xml_grammar.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_grammar.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/xml_grammar.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/basic_pointer_iserializer.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_pointer_iserializer.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/basic_pointer_iserializer.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/serialization/src/text_iarchive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_iarchive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/serialization/src/text_iarchive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/system/src/error_code.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/system/src/error_code.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/system/src/error_code.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/exception/src/clone_current_exception_non_intrusive.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/exception/src/clone_current_exception_non_intrusive.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/exception/src/clone_current_exception_non_intrusive.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object_operators.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object_operators.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object_operators.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/long.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/long.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/long.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/wrapper.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/wrapper.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/wrapper.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/import.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/import.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/import.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/numeric.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/numeric.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/numeric.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/stl_iterator.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/stl_iterator.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/stl_iterator.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/life_support.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/life_support.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/life_support.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/inheritance.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/inheritance.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/inheritance.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/enum.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/enum.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/enum.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/class.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/class.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/class.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/pickle_support.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/pickle_support.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/pickle_support.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/iterator.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/iterator.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/iterator.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/function_doc_signature.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/function_doc_signature.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/function_doc_signature.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object/function.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/function.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object/function.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/exec.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/exec.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/exec.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/module.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/module.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/module.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/converter/type_id.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/type_id.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/type_id.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/converter/arg_to_python_base.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/arg_to_python_base.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/arg_to_python_base.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/converter/from_python.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/from_python.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/from_python.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/converter/builtin_converters.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/builtin_converters.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/builtin_converters.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/converter/registry.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/registry.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/converter/registry.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/tuple.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/tuple.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/tuple.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/errors.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/errors.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/errors.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/list.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/list.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/list.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/object_protocol.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object_protocol.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/object_protocol.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/slice.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/slice.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/slice.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/dict.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/dict.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/dict.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/python/src/str.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/str.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/str.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/timer/src/cpu_timer.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/timer/src/cpu_timer.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/timer/src/cpu_timer.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/timer/src/auto_timers_construction.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/timer/src/auto_timers_construction.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/timer/src/auto_timers_construction.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/smart_ptr/src/sp_collector.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/smart_ptr/src/sp_collector.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/smart_ptr/src/sp_collector.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/smart_ptr/src/sp_debug_hooks.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/smart_ptr/src/sp_debug_hooks.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/smart_ptr/src/sp_debug_hooks.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/thread/src/future.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/future.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/future.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/thread/src/pthread/once.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/pthread/once.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/pthread/once.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/thread/src/pthread/once_atomic.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/pthread/once_atomic.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/pthread/once_atomic.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/BoostParts",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DYCMD_CORE_VERSION=24 -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7   -w -O3 -DNDEBUG   -std=c++0x -fPIC -o CMakeFiles/BoostParts.dir/libs/thread/src/pthread/thread.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/pthread/thread.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/thread/src/pthread/thread.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/PythonSupport.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/PythonSupport.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/PythonSupport.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/Utils.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/Utils.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/Utils.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/IdentifierCompleter.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/IdentifierCompleter.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/IdentifierCompleter.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ycm_core.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ycm_core.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ycm_core.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/IdentifierDatabase.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/IdentifierDatabase.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/IdentifierDatabase.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/CandidateRepository.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/CandidateRepository.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/CandidateRepository.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/versioning.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/versioning.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/versioning.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/IdentifierUtils.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/IdentifierUtils.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/IdentifierUtils.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/Candidate.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/Candidate.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/Candidate.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/Result.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/Result.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/Result.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/LetterNode.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/LetterNode.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/LetterNode.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/LetterNodeListMap.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/LetterNodeListMap.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/LetterNodeListMap.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/CompletionData.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/CompletionData.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/CompletionData.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/ClangHelpers.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/ClangHelpers.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/ClangHelpers.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/Range.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/Range.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/Range.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/ClangCompleter.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/ClangCompleter.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/ClangCompleter.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/CompilationDatabase.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/CompilationDatabase.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/CompilationDatabase.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/TranslationUnitStore.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/TranslationUnitStore.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/TranslationUnitStore.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/TranslationUnit.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/TranslationUnit.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/TranslationUnit.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/Documentation.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/Documentation.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/Documentation.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/ClangCompleter/ClangUtils.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/ClangUtils.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter/ClangUtils.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -Dycm_core_EXPORTS -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include  -O3 -DNDEBUG -fPIC   -std=c++0x -o CMakeFiles/ycm_core.dir/CustomAssert.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/CustomAssert.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/CustomAssert.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/CandidateRepository_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/CandidateRepository_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/CandidateRepository_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/IsUppercase_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IsUppercase_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IsUppercase_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/IndexForLetter_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IndexForLetter_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IndexForLetter_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/LetterBitsetFromString_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/LetterBitsetFromString_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/LetterBitsetFromString_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/TestUtils.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/TestUtils.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/TestUtils.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/ClangCompleter/TranslationUnit_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/ClangCompleter/TranslationUnit_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/ClangCompleter/TranslationUnit_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/ClangCompleter/ClangCompleter_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/ClangCompleter/ClangCompleter_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/ClangCompleter/ClangCompleter_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/main.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/main.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/main.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/IdentifierUtils_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IdentifierUtils_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IdentifierUtils_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/LetterNode_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/LetterNode_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/LetterNode_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/Candidate_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/Candidate_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/Candidate_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include  -O3 -DNDEBUG   -std=c++0x -o CMakeFiles/ycm_core_tests.dir/IdentifierCompleter_test.cpp.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IdentifierCompleter_test.cpp",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/IdentifierCompleter_test.cpp"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests/gmock",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest  -O3 -DNDEBUG   -std=c++0x  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/gtest/src/gtest-all.cc.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest-all.cc",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests/gmock",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest  -O3 -DNDEBUG   -std=c++0x  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/src/gmock-all.cc",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests/gmock",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest  -O3 -DNDEBUG   -std=c++0x  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/src/gmock_main.cc",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests/gmock",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest  -O3 -DNDEBUG   -std=c++0x  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/gtest/src/gtest-all.cc.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest-all.cc",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests/gmock",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest  -O3 -DNDEBUG   -std=c++0x  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/src/gmock-all.cc",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests/gmock/gtest",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest  -O3 -DNDEBUG   -std=c++0x  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest_main.cc",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/salahuddin/ycm_build/ycm/tests/gmock/gtest",
+  "command": "/usr/bin/c++   -DBOOST_THREAD_DONT_USE_CHRONO -DUSE_CLANG_COMPLETER -DYCMD_CORE_VERSION=24 -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/ClangCompleter -isystem /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/BoostParts -isystem /usr/include/python2.7 -isystem /home/salahuddin/ycm_temp/llvm_root_dir/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/include -I/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest  -O3 -DNDEBUG   -std=c++0x  -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest-all.cc",
+  "file": "/home/salahuddin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/tests/gmock/gtest/src/gtest-all.cc"
+}
+]
