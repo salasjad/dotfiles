@@ -7,5 +7,5 @@ To increase the sensitivity and speed of the trackpointer. Add the rule to: /etc
 ###alsadock.conf (TP-ultra-dock)
 The ALSA sound drivers are not loaded properly which created issues when you try to play audio from the audio jack on Thinkpad Ultra- and Pro docking stations. Add this config file to: /etc/modprobe.d/alsadock.conf and then do a reboot.
 
-##dock.sh & undock.sh
-The docking and undocking events didn't work properly without some configurations. You need to add the lenovo-dock and lenovo-undock files inside /etc/acpi/events folder and modify the files according to your username. Then add dock.sh and undock.sh to /etc/acpi and make sure that these two files are executable (chmod command).
+###dock.sh & undock.sh
+The docking and undocking events didn't work properly right out of the box. You need to add the lenovo-dock and lenovo-undock files inside /etc/acpi/events folder and modify the files according to your username. Then add dock.sh and undock.sh to /etc/acpi and make sure that these two files are executable (chmod command).
