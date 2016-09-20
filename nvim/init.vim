@@ -10,6 +10,8 @@ Plugin 'vimwiki/vimwiki'
 Plugin 'scrooloose/nerdtree'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'kien/ctrlp.vim'
+Plugin 'dkprice/vim-easygrep'
+
 "Plugin 'wincent/command-t' "code navigatig
 "Plugin 'mileszs/ack.vim' "new tab search
 
@@ -27,8 +29,10 @@ set nocompatible
 filetype plugin on
 syntax on
 
-colorscheme ego
+"colorscheme ego
+syntax enable
 set background=dark
+colorscheme ego
 
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
@@ -49,6 +53,27 @@ set number
 
 let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 
+function! InsertStatuslineColor(mode)
+  if a:mode == 'i'
+    hi statusline guibg=Cyan ctermfg=6 guifg=Black ctermbg=0
+  elseif a:mode == 'r'
+    hi statusline guibg=Purple ctermfg=5 guifg=Black ctermbg=0
+  else
+    hi statusline guibg=DarkRed ctermfg=1 guifg=Black ctermbg=0
+  endif
+endfunction
+
+au InsertEnter * call InsertStatuslineColor(v:insertmode)
+au InsertLeave * hi statusline guibg=DarkGrey ctermfg=8 guifg=White ctermbg=15
+
+set statusline+=[%{strlen(&fenc)?&fenc:'none'}, "file encoding
+set statusline+=%{&ff}] "file format
+set statusline+=%y      "filetype
+set statusline+=%h      "help file flag
+set statusline+=%m      "modified flag
+set statusline+=%r      "read only flag
+
+set statusline+=%F
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -92,5 +117,9 @@ noremap <Right> <NOP>
 nmap <S-Enter> O<Esc>
 nmap <CR> o<Esc> 
 map <F7> mzgg=G`z
-"map <Esc> :w<CR>
 
+nnoremap H gT
+nnoremap L gt
+:map <F2> @:
+
+cmap w!! w !sudo tee > /dev/null %
