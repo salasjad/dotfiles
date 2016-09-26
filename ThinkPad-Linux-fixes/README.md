@@ -1,10 +1,14 @@
 ##Lenovo ThinkPad configurations for Linux users
-I bought a Lenovo ThinkPad T460p and noticed that a few things should be configured in order to properly run Ubuntu. I will add some of these fixes here in case they can come into use by some of you.
+I bought a Lenovo ThinkPad T460p and Thinkpad Ultra docking station, and noticed that a few things had to be configured in order to properly run Ubuntu. I will add some of these fixes here in case they can come into use by some of you.
 
-###trackpoint.rules
+###Increase speed and sensitivitity trackpointer - trackpoint.rules
 To increase the sensitivity and speed of the trackpointer. Add the rule to: /etc/udev/rules.d/trackpoint.rules and then do a reboot.
 
-###alsadock.conf (TP-ultra-dock)
+###Remove flickering when using Google Chrome and Skype
+I noticed that the ThinkPad screen is flickering whenever I move the cursor while using Google Chrome, Skype and a few other applications. Add the 20-intel.conf file to /etc/share/X11/xorg.conf.d/ and then do a reboot. 
+####If you use an external monitor, notice that you will not be able to rotate into clock- or counterwise orientation. 
+
+###Solve irritating noise when connected to docking station - alsadock.conf 
 The ALSA sound drivers are not loaded properly which created issues when you try to play audio from the audio jack on Thinkpad Ultra- and Pro docking stations. Add this config file to: /etc/modprobe.d/alsadock.conf and then do a reboot.
 
 ###dock.sh & undock.sh
