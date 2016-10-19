@@ -1,4 +1,4 @@
-set rtp+=~/.config/nvim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
@@ -11,6 +11,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'kien/ctrlp.vim'
 Plugin 'dkprice/vim-easygrep'
+Plugin 'tpope/vim-repeat'
 
 "Plugin 'wincent/command-t' "code navigatig
 "Plugin 'mileszs/ack.vim' "new tab search
@@ -26,7 +27,8 @@ runtime! debian.vim
 "standard vim-->
 
 set nocompatible
-filetype plugin on
+filetype off
+filetype plugin indent on
 syntax on
 
 "colorscheme ego
@@ -96,6 +98,7 @@ set mouse=a		" Enable mouse usage (all modes)
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
+autocmd BufEnter * lcd %:p:h "change path to current file directory
 
 "Disable arrow keys
 noremap <Up> <NOP>
@@ -123,3 +126,4 @@ nnoremap L gt
 :map <F2> @:
 
 cmap w!! w !sudo tee > /dev/null %
+
