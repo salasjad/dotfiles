@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/salahuddin/Dropbox/ISE_projects/recap/mux_4bits'
-let g:netrw_dirhist_2='/home/salahuddin/.config/nvim/bundle/Vundle.vim'
-let g:netrw_dirhist_3='/home/salahuddin/Desktop/podofo/examples/helloworld/CMakeFiles'
-let g:netrw_dirhist_4='/home/salahuddin/Dropbox/Application_files'
-let g:netrw_dirhist_5='/home/salahuddin/Dropbox/Application_files/c++_projects'
-let g:netrw_dirhist_6='/home/salahuddin/Dropbox/Application_files/c++_projects/deque'
-let g:netrw_dirhist_7='/home/salahuddin/github/chisel-tutorial/examples'
