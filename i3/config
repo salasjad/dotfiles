@@ -136,6 +136,7 @@ mode "resize" {
 }
 
 exec --no-startup-id dropbox start
+exec --no-startup-id nm-applet
 
 bindsym $mod+r mode "resize"
 
