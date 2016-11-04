@@ -16,8 +16,10 @@ alias svim='sudo vim'
 
 alias balias='vim ~/.bash_aliases'
 alias salias='source ~/.bash_aliases'
+alias i3conf='vim ~/.config/i3/config'
 alias brc='vim ~/.bashrc'
 alias vimrc='vim ~/.config/nvim/init.vim'
 alias tlpsetup='vim /etc/default/tlp'
+alias networkup='sudo service network-manager restart'
 
-alias dot='cp -rf ~/{.bashrc,.bash_aliases,.config/nvim/} ~/gh/dotfiles'
+alias dot='cp -rf ~/{.bashrc,.bash_aliases,.config/nvim/,.config/i3/} ~/gh/dotfiles'

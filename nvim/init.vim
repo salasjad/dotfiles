@@ -8,12 +8,13 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mkitt/tabline.vim'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'Shougo/neocomplete.vim'
+"Plugin 'Shougo/neocomplete.vim'
 Plugin 'osyo-manga/vim-marching'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'kshenoy/vim-signature'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'rdnetto/YCM-Generator'
 Plugin 'myusuf3/numbers.vim'
@@ -25,40 +26,49 @@ Plugin 'dkprice/vim-easygrep'
 Plugin 'tpope/vim-repeat'
 Plugin 'SirVer/ultisnips'
 Plugin 'kien/rainbow_parentheses.vim'
-
+Plugin 'ervandew/supertab'
+Plugin 'Townk/vim-autoclose'
+Plugin 'vim-latex/vim-latex'
 "Plugin 'wincent/command-t' "code navigatig
 "Plugin 'mileszs/ack.vim' "new tab search
 
-" plugin on GitHub repo: Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html: Plugin 'L9'
-" Git plugin not hosted on GitHub: Plugin 'git://git.wincent.com/command-t.git'
 
 call vundle#end()            " required
-filetype plugin indent on    " required
 
 runtime! debian.vim
 "standard vim-->
 
-syntax enable
+set lbr "whitespace linebreak"
 
 "set t_Co=16
 "let g:solarized_termcolors=256
 
 set background=dark
-"colorscheme solarized
+colorscheme solarized
 "colorscheme ego
-colorscheme wombat
+"colorscheme wombat
 
 set nocompatible
 filetype plugin indent on
 syntax on
 
+set fileencoding=utf-8  " The encoding written to file.
+
+set updatetime=250 "mostly because gitgutter is so slow
+
+"easier when working with plain text
+nnoremap k gk
+nnoremap j gj
+
+set grepprg=grep\ -nH\ $* "for vim-latex
+let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats='pdf, aux'
+
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-" The following are commented out as they cause vim to behave a lot
-" differently from regular Vi. They are highly recommended though.
 set showcmd		" Show (partial) command in status line.
 set showmatch		" Show matching brackets.
 set ignorecase		" Do case insensitive matching
@@ -70,7 +80,7 @@ set shiftwidth=3
 set softtabstop=3
 set number
 
-"let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
@@ -102,18 +112,15 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
 
 "rainbow-()
 let g:rbpt_colorpairs = [
-    \ ['brown',       'RoyalBlue3'],
     \ ['Darkblue',    'SeaGreen3'],
     \ ['darkgray',    'DarkOrchid3'],
     \ ['darkgreen',   'firebrick3'],
     \ ['darkred',     'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
     \ ['brown',       'firebrick3'],
-    \ ['gray',        'RoyalBlue3'],
     \ ['black',       'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
     \ ['Darkblue',    'firebrick3'],
-    \ ['darkgreen',   'RoyalBlue3'],
     \ ['darkcyan',    'SeaGreen3'],
     \ ['darkred',     'DarkOrchid3'],
     \ ['red',         'firebrick3'],
@@ -122,7 +129,7 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-let g:rbpt_max = 15
+let g:rbpt_max = 12
 let g:rbpt_loadcmd_toggle = 0
 
 "vim-airline
@@ -133,6 +140,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_skip_empty_sections = 1
+
+set cursorline "highlight cursor
+"set cursorcolumn "highlight column
 
 "Disable arrow keys
 noremap <Up> <NOP>
