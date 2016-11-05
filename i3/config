@@ -1,7 +1,7 @@
 set $mod Mod1
 
 exec --no-startup-id feh --bg-scale ~/Pictures/linux-bg.jpg
-font pango:DejaVu Sans Mono 9
+font pango:DejaVu Sans Mono 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -93,8 +93,8 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #d
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Screen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 15 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 15 # decrease screen brightness
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
@@ -137,6 +137,8 @@ mode "resize" {
 
 exec --no-startup-id dropbox start
 exec --no-startup-id nm-applet
+bindsym $mod+Control+l exec "~/.config/i3/blur_i3lock.sh"
+exec xautolock -time 15 -locker '~/.config/i3/blur_i3lock.sh' &
 
 bindsym $mod+r mode "resize"
 
@@ -153,7 +155,10 @@ colors {
         inactive_workspace #333333 #222222 #888888
         urgent_workspace   #2f343a #900000 #ffffff
     }
+
         status_command i3blocks
+        font pango: Terminus 10
+#        position top
         tray_output primary
 }
 
