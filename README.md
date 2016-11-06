@@ -5,6 +5,7 @@ __Warning:__ Review the code, and remove things you don’t need. Don’t blindl
 
 My .files and config for:
 - vim & neovim
+- i3 & i3blocks
 - tlp
 - bash
 - ThinkPad T460p
