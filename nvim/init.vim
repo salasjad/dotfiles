@@ -2,13 +2,13 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'salasjad/vim-commenter'
 Plugin 'christoomey/vim-system-copy'
 Plugin 'powerline/powerline'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mkitt/tabline.vim'
 Plugin 'ntpeters/vim-better-whitespace'
-"Plugin 'Shougo/neocomplete.vim'
 Plugin 'osyo-manga/vim-marching'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
@@ -20,23 +20,21 @@ Plugin 'rdnetto/YCM-Generator'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'vimwiki/vimwiki'
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'kien/ctrlp.vim'
 Plugin 'dkprice/vim-easygrep'
 Plugin 'tpope/vim-repeat'
 Plugin 'SirVer/ultisnips'
 Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
 Plugin 'Townk/vim-autoclose'
 Plugin 'vim-latex/vim-latex'
-"Plugin 'wincent/command-t' "code navigatig
-"Plugin 'mileszs/ack.vim' "new tab search
-
 
 call vundle#end()            " required
 
 runtime! debian.vim
-"standard vim-->
 
 set lbr "whitespace linebreak"
 
@@ -44,7 +42,8 @@ set lbr "whitespace linebreak"
 "let g:solarized_termcolors=256
 
 set background=dark
-colorscheme solarized
+colorscheme hybrid
+"colorscheme solarized
 "colorscheme ego
 "colorscheme wombat
 
@@ -56,9 +55,15 @@ set fileencoding=utf-8  " The encoding written to file.
 
 set updatetime=250 "mostly because gitgutter is so slow
 
+let g:commenter_author = "Salahuddin Asjad"
+let g:commenter_license = "MIT"
+
 "easier when working with plain text
 nnoremap k gk
 nnoremap j gj
+
+"cursor over for bracket highlightning
+hi MatchParen cterm=none ctermbg=green ctermfg=darkgreen
 
 set grepprg=grep\ -nH\ $* "for vim-latex
 let g:tex_flavor='latex'
@@ -80,14 +85,14 @@ set shiftwidth=3
 set softtabstop=3
 set number
 
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
-hi SpellBad ctermfg=019 ctermbg=242 guifg=#585858 guibg=#585858
-hi SpellCap ctermfg=017 ctermbg=019 guifg=#005f87 guibg=#005fd7
+hi SpellBad ctermfg=80 ctermbg=234
+hi SpellCap ctermfg=017 ctermbg=234
 
 let g:system_copy#copy_command='xclip -sel clipboard'
 let g:system_copy#paste_command='xclip -sel clipboard -o'
@@ -134,8 +139,10 @@ let g:rbpt_loadcmd_toggle = 0
 
 "vim-airline
 "set encoding=utf-8
-let g:airline_theme='solarized'
+"let g:airline_theme='solarized'
+let g:airline_theme='dark'
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
@@ -143,6 +150,9 @@ let g:airline_skip_empty_sections = 1
 
 set cursorline "highlight cursor
 "set cursorcolumn "highlight column
+
+"vim-whitespace
+:highlight ExtraWhitespace ctermbg=darkgray
 
 "Disable arrow keys
 noremap <Up> <NOP>

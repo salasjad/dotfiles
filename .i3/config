@@ -1,6 +1,7 @@
 set $mod Mod1
 
-exec --no-startup-id feh --bg-fill ~/Pictures/linux-bg.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/cheetah.jpg
+
 #font pango:DejaVu Sans Mono 8
   font pango:System San Francisco Display 9
 
@@ -17,8 +18,8 @@ bindsym $mod+q kill
 bindsym $mod+d exec rofi -show run -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -opacity 85 -sidebar-mode
 
 # change focus
-bindsym $mod+j focus up
-bindsym $mod+k focus down
+bindsym $mod+j focus down
+bindsym $mod+k focus up
 bindsym $mod+l focus right
 bindsym $mod+h focus left
 
@@ -27,12 +28,6 @@ bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+h move right
-
-# alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+b split h
@@ -84,14 +79,21 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
+# move focused workspace to other monitor
+bindsym $mod+n move workspace to output left
+bindsym $mod+m move workspace to output right
+bindsym $mod+Shift+n move workspace to output up
+bindsym $mod+Shift+m move workspace to output down
+
+
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Screen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 15 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 15 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 4 # decrease screen brightness
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
@@ -135,16 +137,22 @@ mode "resize" {
 exec --no-startup-id dropbox start
 exec --no-startup-id nm-applet
 exec_always compton -f
+
 bindsym $mod+g exec google-chrome
 bindsym $mod+t exec thunar
 
 bindsym Print exec scrot -e 'mv $f /tmp/'
 bindsym --release $mod+Print exec scrot -s -e 'mv $f /tmp/'
 
-bindsym $mod+Control+l exec "~/.config/i3/blur_i3lock.sh"
-exec xautolock -time 15 -locker '~/.config/i3/blur_i3lock.sh' &
+bindsym $mod+Control+l exec "~/.i3/blur_i3lock.sh"
+exec xautolock -time 15 -locker '~/.i3/blur_i3lock.sh' &
 
 bindsym $mod+r mode "resize"
+
+#Dunst config
+exec killall -q <notification daemon>
+exec --no-startup-id dunst -config
+
 
 set $bg-color 	         #2f343f
 set $inactive-bg-color   #2f343f
