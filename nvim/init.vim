@@ -32,74 +32,108 @@ Plugin 'ervandew/supertab'
 Plugin 'Townk/vim-autoclose'
 Plugin 'vim-latex/vim-latex'
 
-call vundle#end()            " required
+call vundle#end()
 
 runtime! debian.vim
-
-set lbr "whitespace linebreak"
-
-"set t_Co=16
-"let g:solarized_termcolors=256
-
 set background=dark
 colorscheme hybrid
-"colorscheme solarized
-"colorscheme ego
-"colorscheme wombat
 
 set nocompatible
 filetype plugin indent on
 syntax on
 
-set fileencoding=utf-8  " The encoding written to file.
-
+set lbr "whitespace linebreak"
+set fileencoding=utf-8
 set updatetime=250 "mostly because gitgutter is so slow
 
-let g:commenter_author = "Salahuddin Asjad"
-let g:commenter_license = "MIT"
+"Disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+"Shift between split windows
+:tnoremap <A-h> <C-\><C-n><C-w>h
+:tnoremap <A-j> <C-\><C-n><C-w>j
+:tnoremap <A-k> <C-\><C-n><C-w>k
+:tnoremap <A-l> <C-\><C-n><C-w>l
+:nnoremap <A-h> <C-w>h
+:nnoremap <A-j> <C-w>j
+:nnoremap <A-k> <C-w>k
+:nnoremap <A-l> <C-w>l
+
+"Shift between tabs
+nnoremap H gT
+nnoremap L gt
+
+":map <F2> @:
 
 "easier when working with plain text
 nnoremap k gk
 nnoremap j gj
 
-"cursor over for bracket highlightning
+"Insert a new-line after the current line by pressing enter
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+
+"Fix indentation
+map <F7> mzgg=G`z
+
+"sudo write when I forget to type sudo vim
+cmap w!! w !sudo tee > /dev/null %
+
+set cursorline "highlight cursor
+"set cursorcolumn "highlight column
+
+"cursor color for bracket highlightning
 hi MatchParen cterm=none ctermbg=green ctermfg=darkgreen
 
-set grepprg=grep\ -nH\ $* "for vim-latex
-let g:tex_flavor='latex'
-let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_MultipleCompileFormats='pdf, aux'
-
+"Remember the position from last time
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-set showcmd		" Show (partial) command in status line.
-set showmatch		" Show matching brackets.
-set ignorecase		" Do case insensitive matching
-set smartcase		" Do smart case matching
-"set incsearch		" Incremental search
+set showcmd		    " Show (partial) command in status line.
+set showmatch		  " Show matching brackets.
+set ignorecase    " Do case insensitive matching
+set smartcase	    " Do smart case matching
+"set incsearch    " Incremental search
 
 set expandtab
 set shiftwidth=3
 set softtabstop=3
 set number
 
+let g:system_copy#copy_command='xclip -sel clipboard'
+let g:system_copy#paste_command='xclip -sel clipboard -o'
+
+set autowrite		" Automatically save before commands like :next and :make
+set mouse=a		" Enable mouse usage (all modes)
+
+
+
+"################### PLUGIN CONFIG ####################
+
+"salasjad/vim-commenter
+let g:commenter_author = "Salahuddin Asjad"
+let g:commenter_license = "MIT"
+
+"vim-latex/vim-latex
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats='pdf, aux'
+
+"Valloric/YouCompleteMe
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
+"scrooloose/syntastic
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 hi SpellBad ctermfg=80 ctermbg=234
 hi SpellCap ctermfg=017 ctermbg=234
-
-let g:system_copy#copy_command='xclip -sel clipboard'
-let g:system_copy#paste_command='xclip -sel clipboard -o'
-
-set autowrite		" Automatically save before commands like :next and :make
-"set hidden		" Hide buffers when they are abandoned
-set mouse=a		" Enable mouse usage (all modes)
 
 "NERDtree
 autocmd StdinReadPre * let s:std_in=1
@@ -138,8 +172,6 @@ let g:rbpt_max = 12
 let g:rbpt_loadcmd_toggle = 0
 
 "vim-airline
-"set encoding=utf-8
-"let g:airline_theme='solarized'
 let g:airline_theme='dark'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
@@ -148,35 +180,5 @@ let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_skip_empty_sections = 1
 
-set cursorline "highlight cursor
-"set cursorcolumn "highlight column
-
 "vim-whitespace
 :highlight ExtraWhitespace ctermbg=darkgray
-
-"Disable arrow keys
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-
-"Shift between split windows
-:tnoremap <A-h> <C-\><C-n><C-w>h
-:tnoremap <A-j> <C-\><C-n><C-w>j
-:tnoremap <A-k> <C-\><C-n><C-w>k
-:tnoremap <A-l> <C-\><C-n><C-w>l
-:nnoremap <A-h> <C-w>h
-:nnoremap <A-j> <C-w>j
-:nnoremap <A-k> <C-w>k
-:nnoremap <A-l> <C-w>l
-
-"insert a new-line after the current line by pressing Enter (Shift-Enter for inserting a line before the "current line):
-nmap <S-Enter> O<Esc>
-nmap <CR> o<Esc>
-map <F7> mzgg=G`z
-
-nnoremap H gT
-nnoremap L gt
-:map <F2> @:
-
-cmap w!! w !sudo tee > /dev/null %
