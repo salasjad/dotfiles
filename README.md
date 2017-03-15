@@ -14,4 +14,4 @@ My .files and config for:
 
 ---
 ## Contact
-#### <a href="mailto:salahuddin@asjad.org" alt="My email"/>salahuddin@asjad.org</a>
+#### <a href="mailto:asjaddev@gmail.com" alt="My email"/>asjaddev@gmail.com</a>
