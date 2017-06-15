@@ -1,3 +1,11 @@
+"
+"  License: MIT
+"
+"  File: init.vim
+"  Author: Salahuddin Asjad
+"  Created: 25-01-2017
+"  ---------------------------------------------
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -30,7 +38,7 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
 Plugin 'Townk/vim-autoclose'
-Plugin 'vim-latex/vim-latex'
+Plugin 'lervag/vimtex'
 
 call vundle#end()
 
@@ -53,14 +61,14 @@ noremap <Left> <NOP>
 noremap <Right> <NOP>
 
 "Shift between split windows
-:tnoremap <A-h> <C-\><C-n><C-w>h
-:tnoremap <A-j> <C-\><C-n><C-w>j
-:tnoremap <A-k> <C-\><C-n><C-w>k
-:tnoremap <A-l> <C-\><C-n><C-w>l
-:nnoremap <A-h> <C-w>h
-:nnoremap <A-j> <C-w>j
-:nnoremap <A-k> <C-w>k
-:nnoremap <A-l> <C-w>l
+:tnoremap <C-h> <C-\><C-n><C-w>h
+:tnoremap <C-j> <C-\><C-n><C-w>j
+:tnoremap <C-k> <C-\><C-n><C-w>k
+:tnoremap <C-l> <C-\><C-n><C-w>l
+:nnoremap <C-h> <C-w>h
+:nnoremap <C-j> <C-w>j
+:nnoremap <C-k> <C-w>k
+:nnoremap <C-l> <C-w>l
 
 "Shift between tabs
 nnoremap H gT
@@ -93,12 +101,15 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
+set switchbuf=useopen,usetab
 set showcmd		    " Show (partial) command in status line.
 set showmatch		  " Show matching brackets.
 set ignorecase    " Do case insensitive matching
 set smartcase	    " Do smart case matching
 "set incsearch    " Incremental search
 
+"set colorcolumn=80
+"highlight ColorColumn ctermbg=black
 set expandtab
 set shiftwidth=3
 set softtabstop=3
@@ -111,8 +122,12 @@ set autowrite		" Automatically save before commands like :next and :make
 set mouse=a		" Enable mouse usage (all modes)
 
 
-
 "################### PLUGIN CONFIG ####################
+
+"airblade/vim-gitgutter
+let g:gitgutter_max_signs = 1000
+
+
 
 "salasjad/vim-commenter
 let g:commenter_author = "Salahuddin Asjad"
@@ -123,6 +138,7 @@ set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
 let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_MultipleCompileFormats='pdf, aux'
+let &makeprg = 'if [ -f Makefile ]; then make; else make -C ..; fi'
 
 "Valloric/YouCompleteMe
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
@@ -151,19 +167,19 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
 
 "rainbow-()
 let g:rbpt_colorpairs = [
-    \ ['Darkblue',    'SeaGreen3'],
-    \ ['darkgray',    'DarkOrchid3'],
+    \ ['darkblue',    'DarkOrchid3'],
     \ ['darkgreen',   'firebrick3'],
     \ ['darkred',     'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
     \ ['brown',       'firebrick3'],
-    \ ['black',       'SeaGreen3'],
+    \ ['lightblue',  'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
     \ ['Darkblue',    'firebrick3'],
     \ ['darkcyan',    'SeaGreen3'],
     \ ['darkred',     'DarkOrchid3'],
     \ ['red',         'firebrick3'],
     \ ]
+    "\ ['Darkblue',    'SeaGreen3'],
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
@@ -179,6 +195,9 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_skip_empty_sections = 1
+let airline#extensions#tabline#tabs_label = ''
+let airline#extensions#tabline#show_splits = 0
+let g:airline#extensions#tabline#show_tab_nr = 0
 
 "vim-whitespace
 :highlight ExtraWhitespace ctermbg=darkgray

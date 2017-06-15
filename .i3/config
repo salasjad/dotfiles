@@ -3,7 +3,7 @@ set $mod Mod1
 exec --no-startup-id feh --bg-fill ~/Pictures/cheetah.jpg
 
 #font pango:DejaVu Sans Mono 8
-  font pango:System San Francisco Display 9
+  font pango:System San Francisco Display 7.2
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
