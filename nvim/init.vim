@@ -6,7 +6,7 @@
 "  Created: 25-01-2017
 "  ---------------------------------------------
 
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
@@ -44,6 +44,7 @@ call vundle#end()
 
 runtime! debian.vim
 set background=dark
+
 colorscheme hybrid
 
 set nocompatible
@@ -126,8 +127,6 @@ set mouse=a		" Enable mouse usage (all modes)
 
 "airblade/vim-gitgutter
 let g:gitgutter_max_signs = 1000
-
-
 
 "salasjad/vim-commenter
 let g:commenter_author = "Salahuddin Asjad"
