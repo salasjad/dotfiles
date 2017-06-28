@@ -9,7 +9,7 @@ exec --no-startup-id feh --bg-fill ~/Pictures/cheetah.jpg
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+q kill
@@ -144,8 +144,8 @@ bindsym $mod+t exec thunar
 bindsym Print exec scrot -e 'mv $f /tmp/'
 bindsym --release $mod+Print exec scrot -s -e 'mv $f /tmp/'
 
-bindsym $mod+Control+l exec "~/.i3/blur_i3lock.sh"
-exec xautolock -time 15 -locker '~/.i3/blur_i3lock.sh' &
+bindsym $mod+Control+l exec "~/.config/i3/blur_i3lock.sh"
+exec xautolock -time 15 -locker '~/.config/i3/blur_i3lock.sh' &
 
 bindsym $mod+r mode "resize"
 
@@ -179,7 +179,8 @@ colors {
 		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 	}
         status_command i3blocks
-        font pango: San Francisco Display 10
+        #font pango: San Francisco Display 10
+        font pango: San Francisco Display 10.3, Awesome 10.3
 #        position top
         tray_output primary
 }
