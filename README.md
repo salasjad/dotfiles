@@ -12,6 +12,8 @@ My .files and config for:
 - ThinkPad T460p
 - ThinkPad docking station
 
+OS: Arch Linux and Ubuntu 16.04 LTS
+
 ---
 ## Contact
 #### <a href="mailto:asjaddev@gmail.com" alt="My email"/>asjaddev@gmail.com</a>
