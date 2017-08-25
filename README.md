@@ -8,6 +8,7 @@ My .files and config for:
 - i3 & i3blocks
 - Dunst
 - Termite
+- Redshift
 - TLP
 - Bash
 - ThinkPad T460p
