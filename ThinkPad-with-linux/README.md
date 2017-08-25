@@ -1,4 +1,4 @@
-#Lenovo ThinkPad configurations for Linux users
+# Lenovo ThinkPad configurations for Linux users
 I bought a Lenovo ThinkPad T460p and Thinkpad Ultra docking station, and noticed that a few things had to be configured in order to properly run Ubuntu. I will add some of these fixes here in case they can come into use by some of you.
 
 ## Configurations for ThinkPad laptops:
