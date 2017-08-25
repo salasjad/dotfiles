@@ -1,6 +1,6 @@
 set $mod Mod1
 
-exec --no-startup-id feh --bg-fill ~/Pictures/cheetah.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/muhammed-ali.jpg
 
 #font pango:DejaVu Sans Mono 8
   font pango:System San Francisco Display 7.2
