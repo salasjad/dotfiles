@@ -7,6 +7,7 @@ My .files and config for:
 - Vim & Neovim
 - i3 & i3blocks
 - Dunst
+- Termite
 - TLP
 - Bash
 - ThinkPad T460p
