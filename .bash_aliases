@@ -6,6 +6,9 @@ alias ....='cd ../../..'
 
 alias vim='nvim'
 
+#Arch Linux
+alias inst='sudo pacman -Syu $1'
+
 #Ubuntu
 alias supt='sudo apt-get update'
 alias supg='sudo apt-get upgrade'
