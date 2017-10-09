@@ -154,8 +154,8 @@ exec killall -q <notification daemon>
 exec --no-startup-id dunst -config
 
 
-set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
+set $bg-color 	         #002b36
+set $inactive-bg-color   #002b36
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935

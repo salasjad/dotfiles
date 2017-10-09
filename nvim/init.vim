@@ -18,7 +18,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mkitt/tabline.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'osyo-manga/vim-marching'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
@@ -140,7 +140,7 @@ let g:Tex_MultipleCompileFormats='pdf, aux'
 let &makeprg = 'if [ -f Makefile ]; then make; else make -C ..; fi'
 
 ""Valloric/YouCompleteMe
-"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
 "scrooloose/syntastic
 let g:syntastic_always_populate_loc_list = 1

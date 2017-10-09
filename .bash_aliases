@@ -26,13 +26,14 @@ alias dl='cd ~/Downloads'
 alias dt='cd ~/Desktop'
 alias h='history'
 
+alias copfile='xclip -sel clip < $1'
 alias svim='sudo vim'
 
 alias algs='cd ~/git/algorithms'
 
 alias balias='vim ~/.bash_aliases'
 alias salias='source ~/.bash_aliases'
-alias i3conf='cd ~/.i3/'
+alias i3conf='cd ~/.config/i3/'
 alias brc='vim ~/.bashrc'
 alias vimrc='vim ~/.config/nvim/init.vim'
 alias muttrc='vim ~/.muttrc'
@@ -48,15 +49,20 @@ alias undock='sudo sh /etc/acpi/undock.sh'
 
 alias sharelatex='cd ~/Dropbox/Apps/ShareLaTeX/'
 
-#Aliases for FPGA setup
+#Aliases for Xilinx ISE
 alias xilinx='source /opt/Xilinx/14.7/ISE_DS/settings64.sh/'
 alias ise='source /opt/Xilinx/14.7/ISE_DS/settings64.sh; ise &'
 alias progboard='djtgcfg prog -d Nexys3 -i 0 -f $1'
+
+#Aliases for Altera Quartus
+alias quartus='sh /opt/intelFPGA_lite/17.0/quartus/bin/quartus &'
 
 #Aliases for EFM32GG board
 alias efm32gg='cd /home/salahuddin/Dropbox/app_files/EFM32GG/'
 alias simstudio='/opt/simplicitystudio/studio'
 alias commander='cd /opt/simplicitystudio/developer/adapter_packs/commander'
+
+alias show_dev='dmesg | grep tty'
 
 #SHMAC project
 alias shmac='cd ~/git/shmac'
