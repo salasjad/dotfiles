@@ -5,7 +5,7 @@ __Warning:__ Review the code, and remove things you don’t need. Don’t blindl
 
 My .files and config for:
 - Vim & Neovim
-- i3 & i3blocks
+- i3 & i3blocks & i3-gaps
 - Dunst
 - Termite
 - Redshift
