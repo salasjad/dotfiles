@@ -31,6 +31,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'kien/ctrlp.vim'
+Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'dkprice/vim-easygrep'
 Plugin 'tpope/vim-repeat'
 Plugin 'SirVer/ultisnips'
@@ -41,6 +42,8 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'lervag/vimtex'
 
 call vundle#end()
+
+"  ---------------------------------------------
 
 runtime! debian.vim
 set background=dark
@@ -70,6 +73,17 @@ noremap <Right> <NOP>
 :nnoremap <C-j> <C-w>j
 :nnoremap <C-k> <C-w>k
 :nnoremap <C-l> <C-w>l
+
+set hidden
+"Open a new empty buffer
+nmap <leader>T :enew<cr>
+"Move to the next buffer
+nmap <leader>l :bnext<CR>
+"Close current buffer and go to previous
+nmap <leader>bq :bp <BAR> bd #<CR>
+"Show all buffers
+nmap <leader>bl :ls<CR>
+
 
 "Shift between tabs
 nnoremap H gT
@@ -112,8 +126,9 @@ set smartcase	    " Do smart case matching
 "set colorcolumn=80
 "highlight ColorColumn ctermbg=black
 set expandtab
-set shiftwidth=3
-set softtabstop=3
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set number
 
 let g:system_copy#copy_command='xclip -sel clipboard'
@@ -125,12 +140,19 @@ set mouse=a		" Enable mouse usage (all modes)
 
 "################### PLUGIN CONFIG ####################
 
+"  ---------------------------------------------
+"
 "airblade/vim-gitgutter
 let g:gitgutter_max_signs = 1000
+
+"  ---------------------------------------------
 
 "salasjad/vim-commenter
 let g:commenter_author = "Salahuddin Asjad"
 let g:commenter_license = "MIT"
+
+"  ---------------------------------------------
+
 
 "vim-latex/vim-latex
 set grepprg=grep\ -nH\ $*
@@ -139,8 +161,12 @@ let g:Tex_DefaultTargetFormat = 'pdf'
 let g:Tex_MultipleCompileFormats='pdf, aux'
 let &makeprg = 'if [ -f Makefile ]; then make; else make -C ..; fi'
 
+"  ---------------------------------------------
+
 ""Valloric/YouCompleteMe
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+
+"  ---------------------------------------------
 
 "scrooloose/syntastic
 let g:syntastic_always_populate_loc_list = 1
@@ -150,11 +176,15 @@ let g:syntastic_check_on_wq = 0
 hi SpellBad ctermfg=80 ctermbg=234
 hi SpellCap ctermfg=017 ctermbg=234
 
+"  ---------------------------------------------
+
 "NERDtree
 autocmd StdinReadPre * let s:std_in=1
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
 autocmd BufEnter * lcd %:p:h "change path to current file directory
+
+"  ---------------------------------------------
 
 "vim-indent-guides
 set ts=2 sw=2 et
@@ -163,6 +193,8 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=black
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=darkgrey
+
+"  ---------------------------------------------
 
 "rainbow-()
 let g:rbpt_colorpairs = [
@@ -186,6 +218,8 @@ au Syntax * RainbowParenthesesLoadBraces
 let g:rbpt_max = 12
 let g:rbpt_loadcmd_toggle = 0
 
+"  ---------------------------------------------
+
 "vim-airline
 let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
@@ -197,6 +231,39 @@ let g:airline_skip_empty_sections = 1
 let airline#extensions#tabline#tabs_label = ''
 let airline#extensions#tabline#show_splits = 0
 let g:airline#extensions#tabline#show_tab_nr = 0
+
+"  ---------------------------------------------
+
+"kien/ctrlp.vim
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](\.(git|hg|svn)|\_site)$',
+  \ 'file': '\v\.(exe|so|dll|class|png|jpg|jpeg)$',
+\}
+
+" Use the closest .git directory as the cwd
+let g:ctrlp_working_path_mode = 'r'
+
+" ctrlp < leaderp hehe
+nmap <leader>p :CtrlP<cr>
+
+" Navigate to different ctrlp modes
+nmap <leader>bb :CtrlPBuffer<cr>
+nmap <leader>bm :CtrlPMixed<cr>
+nmap <leader>bs :CtrlPMRU<cr>
+
+"  ---------------------------------------------
+
+"jeetsukumaran/vim-buffergator
+" Go to the previous opened buffer
+nmap <leader>ll :BuffergatorMruCyclePrev<cr>
+
+" Go to the next opened buffer
+nmap <leader>hh :BuffergatorMruCycleNext<cr>
+
+" View open buffers
+nmap <leader>bl :BuffergatorOpen<cr>
+
+"  ---------------------------------------------
 
 "vim-whitespace
 :highlight ExtraWhitespace ctermbg=darkgray
