@@ -33,6 +33,7 @@ Plugin 'derekwyatt/vim-scala'
 Plugin 'kien/ctrlp.vim'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'dkprice/vim-easygrep'
+Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-repeat'
 Plugin 'SirVer/ultisnips'
 Plugin 'kien/rainbow_parentheses.vim'
@@ -40,6 +41,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
 Plugin 'Townk/vim-autoclose'
 Plugin 'lervag/vimtex'
+Plugin 'skammer/vim-css-color'
+
 
 call vundle#end()
 
