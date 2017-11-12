@@ -105,6 +105,8 @@ nmap <CR> o<Esc>
 "Fix indentation
 map <F7> mzgg=G`z
 
+nnoremap <leader>e :%s/\r//g
+
 "sudo write when I forget to type sudo vim
 cmap w!! w !sudo tee > /dev/null %
 

@@ -27,7 +27,7 @@ alias dt='cd ~/Desktop'
 alias h='history'
 
 alias copfile='xclip -sel clip < $1'
-alias svim='sudo vim'
+alias svim='sudo nvim'
 
 alias algs='cd ~/git/algorithms'
 
@@ -55,7 +55,8 @@ alias ise='source /opt/Xilinx/14.7/ISE_DS/settings64.sh; ise &'
 alias progboard='djtgcfg prog -d Nexys3 -i 0 -f $1'
 
 #Aliases for Altera Quartus
-alias quartus='sh /opt/intelFPGA_lite/17.0/quartus/bin/quartus &'
+alias alteraQuartus='sh /opt/intelFPGA_lite/17.1/quartus/bin/quartus &'
+alias alteraFlash='quartus_pgm -z --mode=JTAG --operation="p;program.sof"'
 
 #Aliases for EFM32GG board
 alias efm32gg='cd /home/salahuddin/Dropbox/app_files/EFM32GG/'
