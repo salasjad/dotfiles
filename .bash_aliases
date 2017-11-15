@@ -64,8 +64,3 @@ alias simstudio='/opt/simplicitystudio/studio'
 alias commander='cd /opt/simplicitystudio/developer/adapter_packs/commander'
 
 alias show_dev='dmesg | grep tty'
-
-#SHMAC project
-alias shmac='cd ~/git/shmac'
-alias ssrc='cd ~/git/shmac/hardware/src'
-alias moog='ssh salahuda@moog.idi.ntnu.no'

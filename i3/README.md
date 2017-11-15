@@ -2,6 +2,8 @@
 ---
 
 ### Prerequisites
+Create a folder named i3 in your ~/.config folder. Then copy over these files to the newly created i3 folder.
+
 #### Tools:
 - i3 window manager
 - i3blocks - status bar
