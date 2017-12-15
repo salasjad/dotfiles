@@ -6,6 +6,8 @@ gaps inner 6
 gaps outer 0
 smart_gaps on
 
+focus_follows_mouse no
+
 #font pango:DejaVu Sans Mono 8
   font pango:System San Francisco Display 7.2
 

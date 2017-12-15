@@ -42,7 +42,9 @@ Plugin 'ervandew/supertab'
 Plugin 'Townk/vim-autoclose'
 Plugin 'lervag/vimtex'
 Plugin 'skammer/vim-css-color'
-
+Plugin 'nhooyr/neoman.vim'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'vim-scripts/cpp.vim'
 
 call vundle#end()
 
@@ -130,10 +132,10 @@ set smartcase	    " Do smart case matching
 
 "set colorcolumn=80
 "highlight ColorColumn ctermbg=black
-set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 set number
 
 let g:system_copy#copy_command='xclip -sel clipboard'
@@ -178,6 +180,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
+let g:syntastic_cpp_include_dirs = ["/usr/include/qt/QtWidgets/"]
 hi SpellBad ctermfg=80 ctermbg=234
 hi SpellCap ctermfg=017 ctermbg=234
 
@@ -230,6 +233,7 @@ let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_skip_empty_sections = 1

@@ -5,9 +5,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 
 alias vim='nvim'
+alias sat='zathura'
+alias firefox='/opt/firefox/firefox &'
 
 #Arch Linux
 alias inst='sudo pacman -Syu $1'
+alias yaourtskip='yaourt --m-arg --skipchecksums --m-arg --skippgpcheck -Sb $1'
 
 #Ubuntu
 alias supt='sudo apt-get update'
@@ -64,3 +67,10 @@ alias simstudio='/opt/simplicitystudio/studio'
 alias commander='cd /opt/simplicitystudio/developer/adapter_packs/commander'
 
 alias show_dev='dmesg | grep tty'
+
+alias shmac='cd ~/git/SHA-ELD/'
+alias run='cd ~/git/SHA-ELD/run/'
+alias mibench='cd ~/git/SHA-ELD/software/applications/mibench/'
+alias qsort='cd ~/git/SHA-ELD/software/applications/mibench/automotive/qsort'
+alias ttyparse='python ~/git/SHA-ELD/script/tty_parse.py'
+alias shmackill='sudo pkill -9 shmacsim'
