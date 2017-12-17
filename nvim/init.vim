@@ -53,7 +53,7 @@ call vundle#end()
 runtime! debian.vim
 set background=dark
 
-colorscheme solarized
+colorscheme molokai
 
 set nocompatible
 filetype plugin indent on
@@ -229,7 +229,7 @@ let g:rbpt_loadcmd_toggle = 0
 "  ---------------------------------------------
 
 "vim-airline
-let g:airline_theme='solarized'
+let g:airline_theme='molokai'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#enabled = 1
