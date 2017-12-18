@@ -9,6 +9,7 @@ alias sat='zathura'
 alias firefox='/opt/firefox/firefox &'
 
 #Arch Linux
+alias allinst='sudo pacman -Ssq $1 | sudo pacman -S -s'
 alias inst='sudo pacman -Syu $1'
 alias yaourtskip='yaourt --m-arg --skipchecksums --m-arg --skippgpcheck -Sb $1'
 
