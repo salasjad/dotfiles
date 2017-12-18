@@ -54,6 +54,7 @@ runtime! debian.vim
 set background=dark
 
 colorscheme molokai
+let g:rehash256 = 1
 
 set nocompatible
 filetype plugin indent on
@@ -116,7 +117,7 @@ set cursorline "highlight cursor
 "set cursorcolumn "highlight column
 
 "cursor color for bracket highlightning
-hi MatchParen cterm=none ctermbg=green ctermfg=darkgreen
+"hi MatchParen cterm=none ctermbg=green ctermfg=darkgreen
 
 "Remember the position from last time
 if has("autocmd")
@@ -264,10 +265,10 @@ nmap <leader>bs :CtrlPMRU<cr>
 
 "jeetsukumaran/vim-buffergator
 " Go to the previous opened buffer
-nmap <leader>ll :BuffergatorMruCyclePrev<cr>
+nmap <leader>ll :bn<cr>
 
 " Go to the next opened buffer
-nmap <leader>hh :BuffergatorMruCycleNext<cr>
+nmap <leader>hh :bp<cr>
 
 " View open buffers
 nmap <leader>bl :BuffergatorOpen<cr>
