@@ -29,6 +29,7 @@ alias db='cd ~/Dropbox'
 alias dl='cd ~/Downloads'
 alias dt='cd ~/Desktop'
 alias h='history'
+alias doc='cd ~/doc/'
 
 alias copfile='xclip -sel clip < $1'
 alias svim='sudo nvim'
@@ -44,6 +45,7 @@ alias muttrc='vim ~/.muttrc'
 alias dunstrc='vim ~/.config/dunst/dunstrc'
 alias tlpsetup='vim /etc/default/tlp'
 alias networkup='sudo service network-manager restart'
+alias svgtotex='inkscape -D -z --file=$1.svg --export-pdf=$1.pdf --export-latex'
 
 alias dot='cp -rf ~/{.profile,.bash_aliases,.config/nvim/,.i3/,.config/dunst/} ~/git/dotfiles'
 
@@ -61,6 +63,7 @@ alias progboard='djtgcfg prog -d Nexys3 -i 0 -f $1'
 #Aliases for Altera Quartus
 alias alteraQuartus='sh /opt/intelFPGA_lite/17.1/quartus/bin/quartus &'
 alias alteraFlash='quartus_pgm -z --mode=JTAG --operation="p;program.sof"'
+alias qsys-open='sh /opt/intelFPGA_lite/17.1/quartus/sopc_builder/bin/qsys-edit &'
 
 #Aliases for EFM32GG board
 alias efm32gg='cd /home/salahuddin/Dropbox/app_files/EFM32GG/'
@@ -69,9 +72,18 @@ alias commander='cd /opt/simplicitystudio/developer/adapter_packs/commander'
 
 alias show_dev='dmesg | grep tty'
 
+# SHA+ELD
+alias thesis='zathura ~/doc/thesis/shaeld-asjad.pdf &'
+alias sha-sjalander='zathura ~/doc/thesis/sha-sjalander.pdf &'
+alias eld-sjalander='zathura ~/doc/thesis/eld-sjalander.pdf &'
+alias sta-sjalander='zathura ~/doc/thesis/sta-sjalander.pdf &'
 alias shmac='cd ~/git/SHA-ELD/'
 alias run='cd ~/git/SHA-ELD/run/'
 alias mibench='cd ~/git/SHA-ELD/software/applications/mibench/'
 alias qsort='cd ~/git/SHA-ELD/software/applications/mibench/automotive/qsort'
 alias ttyparse='python ~/git/SHA-ELD/script/tty_parse.py'
-alias shmackill='sudo pkill -9 shmacsim'
+alias shmackill='pkill -9 shmacsim'
+
+#opensplice
+alias sourceos='source /home/sha/opensplice/install/HDE/x86_64.linux-dev/release.com'
+alias osex='cd /home/sha/opensplice/install/HDE/x86_64.linux-dev/examples/dcps'

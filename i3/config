@@ -6,6 +6,8 @@ gaps inner 6
 gaps outer 0
 smart_gaps on
 
+exec xset r rate 250 60
+
 focus_follows_mouse no
 
 #font pango:DejaVu Sans Mono 8
@@ -34,6 +36,12 @@ bindsym $mod+Shift+j move left
 bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+h move right
+
+#resize window
+bindsym $mod+Ctrl+Shift+Right resize shrink width 10 px or 10 ppt
+bindsym $mod+Ctrl+Shift+Up resize grow height 10 px or 10 ppt
+bindsym $mod+Ctrl+Shift+Down resize shrink height 10 px or 10 ppt
+bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
 
 # split in horizontal orientation
 bindsym $mod+b split h
@@ -158,7 +166,6 @@ bindsym $mod+r mode "resize"
 #Dunst config
 exec killall -q <notification daemon>
 exec --no-startup-id dunst -config
-
 
 set $bg-color 	         #1f201b
 set $inactive-bg-color   #3c3d38

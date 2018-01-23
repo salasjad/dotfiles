@@ -20,6 +20,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'osyo-manga/vim-marching'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
+Plugin 'peterhoeg/vim-qml'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'kshenoy/vim-signature'
@@ -173,6 +174,16 @@ let &makeprg = 'if [ -f Makefile ]; then make; else make -C ..; fi'
 
 ""Valloric/YouCompleteMe
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_min_num_of_chars_for_completion=1
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_confirm_extra_conf=0
+let g:ycm_goto_buffer_command = 'horizontal-split'
+map <C-g> :YcmCompleter GoTo<CR>
+"nnoremap d<CR> :YcmCompleter GoToDefinition
+"nnoremap j<CR> :YcmCompleter GoToDefinitionElseDeclaration
+"nnoremap g<CR> :YcmCompleter GoToDeclaration
+"nnoremap k<CR> :YcmCompleter GoToInclude
 
 "  ---------------------------------------------
 
