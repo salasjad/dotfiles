@@ -70,3 +70,63 @@ map("n", "<leader>fr", "<cmd>Telescope oldfiles<CR>", {
 -- Clear search highlighting
 map("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
+-- Clangd stuff
+vim.keymap.set("n", "<leader>oh", function()
+  local clients = vim.lsp.get_clients({
+    bufnr = 0,
+    name = "clangd",
+  })
+
+  if #clients == 0 then
+    vim.notify("clangd is not attached", vim.log.levels.WARN)
+    return
+  end
+
+  local params = {
+    uri = vim.uri_from_bufnr(0),
+  }
+
+  clients[1]:request(
+    "textDocument/switchSourceHeader",
+    params,
+    function(err, result)
+      if err then
+        vim.notify(err.message or tostring(err), vim.log.levels.ERROR)
+        return
+      end
+
+      if result then
+        vim.cmd.edit(vim.uri_to_fname(result))
+      end
+    end,
+    0
+  )
+end, { desc = "Switch between source and header" })
+
+-- Go to definition
+vim.keymap.set("n", "gd", vim.lsp.buf.definition,
+  { desc = "Go to definition" })
+
+-- Go to declaration
+vim.keymap.set("n", "gD", vim.lsp.buf.declaration,
+  { desc = "Go to declaration" })
+
+-- Find references
+vim.keymap.set("n", "gr", vim.lsp.buf.references,
+  { desc = "Find references" })
+
+-- Hover documentation
+vim.keymap.set("n", "K", vim.lsp.buf.hover,
+  { desc = "Hover documentation" })
+
+-- Rename symbol
+vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename,
+  { desc = "Rename symbol" })
+
+-- Code actions
+vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action,
+  { desc = "Code actions" })
+
+-- Diagnostics
+vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float,
+  { desc = "Show diagnostics" })
