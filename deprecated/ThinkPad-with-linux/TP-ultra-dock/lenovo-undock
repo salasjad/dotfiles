@@ -1,2 +1,0 @@
-event=ibm/hotkey LEN0068:00 00000080 00004011
-action=su salahuddin -c /etc/acpi/undock.sh
